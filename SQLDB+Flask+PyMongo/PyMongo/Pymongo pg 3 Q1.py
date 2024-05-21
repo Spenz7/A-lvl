@@ -1,4 +1,4 @@
-..import pymongo
+import pymongo
 title  = input('Enter movie title: ')
 year = input('Enter year of movie: ')
 client = pymongo.MongoClient('127.0.0.1',27017)
